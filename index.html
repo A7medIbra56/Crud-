@@ -1,0 +1,83 @@
+<html>
+   <head>
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+       <link rel="stylesheet" href="css/main.css">
+       <link rel="stylesheet" href="css/all.min.css">
+      
+   </head>
+   <body>
+    <div class="fon text-center">
+      <div class="fon1">
+       <div class="rgba">
+
+        <div class="layerContent">
+          <h1>Orthopedic doctor</h1>
+          <p class="typingClass"> </p>
+      </div>
+
+       </div>
+      </div>
+      <div>
+      </div>
+      <i class="fa-solid fa-user-doctor"></i>
+ 
+    </div>
+    <header class="bga1">
+      <div class="bga">
+        <div class="container pb-5">
+          <label for="Patient"> Patient Name :</label>
+          <input type="text" oninput="valdetonProduct()" class="form-control mb-2 " id="Patient"> 
+          <div id="erorr" class="p-2"></div>
+    
+          <label for="address">The address :</label>
+          <input type="text" class="form-control mb-2" id="address"> 
+    
+          <label for="Phone">Phone :</label>
+          <input type="number" class="form-control mb-2" id="Phone"> 
+    
+          <label for="Camment">Comment :</label>
+          <textarea  type="text" id="Camment" class="form-control mb-2"></textarea>
+    
+          <button onclick="addForm();" id="Add" class="btn btn-sm btn-outline-dark w-25 d-inline-block ">Add Patient</button>
+          <button onclick="addUpdate()" id="Update" class="btn btn-sm btn-outline-dark w-25 d-none">Update</button>
+
+          <button onclick="claer();"  class="btn btn-sm btn-outline-dark w-25 ">Claer</button>
+          
+         
+          
+    
+        </div>
+      </div>
+  
+   
+  </header>
+  <div class="w-50 mx-auto p-3">
+    <label for="search">search : </label>
+    <input oninput="productSearch(this.value)"  type="text" class="form-control" placeholder="search by name" id="search">
+  </div>
+  <div>
+   
+      <table class="table w-75 mx-auto ">
+        <thead>
+       
+            <th>The Number</th>
+            <th>Patient Name</th>
+            <th>The address </th>
+            <th>Phone</th>
+            <th>Comment</th>
+            <th>Update</th>
+            <th>delete</th>
+       
+      <tbody id="ProductBody">
+       
+      </tbody>
+    </thead>
+    </table>
+ 
+  </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   </body>
+ 
+</html>

@@ -1,0 +1,111 @@
+body
+{
+    font-family: 'segoe ui light';
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.fon1
+{
+    height: 50%;
+    background-image: url(../images/doctors-hands-holding-medical-care-objects.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.rgba
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13,110,253,0.7);
+}
+.fon h1
+{
+    font-size: 60px;
+    padding: 40px;
+   
+}
+.bga1
+{
+ 
+    margin: auto ;
+    width: 70%;
+    border-radius: 10px;
+    
+    background-position: 100%;
+    background-size: cover;
+}
+.bga
+{
+   
+    border-radius: 10px;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(13,110,253,0.7);
+    background-position:center;
+    background-size: cover;
+}
+.dr-cont
+{
+    text-align: center;
+    position: relative;
+}
+.Clinic
+{
+    
+    position: absolute;
+    left: 40%;
+    top: 0%;
+}
+.bga label
+{
+    font-size: 20px;
+}
+
+.layerContent{
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.layerContent p
+{
+    font-size: 70px;
+}
+h1{
+    font-size: 65px;
+}
+.typingClass::after{
+    content: "";
+    animation-name: typingSkill;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typingSkill{
+
+    0%{ content: "|"; }
+
+    2% { content: "D|"; }
+    4% { content: "Dr|"; }
+    6% { content: "Dr A|"; }
+    8% { content: "Dr Ah|"; }
+    10% { content: "Dr Ahm|"; }
+    12% { content: "Dr Ahme|"; }
+    14% { content: "Dr Ahmed|"; }
+    16% { content: "Dr Ahmed I|"; }
+    18% { content: "Dr Ahmed Ib|"; }
+    20% { content: "Dr Ahmed Ibr|"; }
+    22% { content: "Dr Ahmed Ibra|"; }
+    24% { content: "Dr Ahmed Ibrah|"; }
+    26% { content: "Dr Ahmed Ibrahi|"; }
+    28% { content: "Dr  Ahmed Ibrahim|"; }
+  
+
+    100%{  }
+
+}
+i
+{
+    font-size: 100px;
+    padding: 20px;
+    color: blue;
+}
